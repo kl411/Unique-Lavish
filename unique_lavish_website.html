@@ -1,0 +1,218 @@
+<!-- index.html (Home / About Us) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unique & Lavish | Men's Spa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Unique & Lavish</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Luxury Grooming for the Modern Man</h2>
+      <p>Where sophistication meets relaxation. Crafted exclusively for men.</p>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>
+      At <strong>Unique & Lavish</strong>, we believe men deserve a space where luxury, comfort, and premium care come together. Our treatments are tailored specifically for male wellness — blending tradition, technique, and modern excellence.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Unique & Lavish. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+<!-- services.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unique & Lavish | Services</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Unique & Lavish</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <h3>Men's Facial</h3>
+        <p>Deep-cleansing, exfoliation, and hydration designed specifically for men's skin.</p>
+      </div>
+      <div class="service-card">
+        <h3>Beard Treatment</h3>
+        <p>Premium beard care including shaping, conditioning, and essential oil therapy.</p>
+      </div>
+      <div class="service-card">
+        <h3>Massage Therapy</h3>
+        <p>Relaxation and muscle recovery through customized massage techniques.</p>
+      </div>
+      <div class="service-card">
+        <h3>Grooming Packages</h3>
+        <p>Complete luxury experiences combining multiple services for the ultimate refresh.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Unique & Lavish. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unique & Lavish | Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Unique & Lavish</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2>Contact & Location</h2>
+    <p><strong>Address:</strong> (Add your location here)</p>
+    <p><strong>Phone:</strong> (Add phone number)</p>
+    <p><strong>Email:</strong> (Add email)</p>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Unique & Lavish. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+<!-- styles.css -->
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #111;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: gold;
+  text-decoration: none;
+  font-weight: bold;
+}
+.logo {
+  color: gold;
+  font-size: 24px;
+  font-weight: bold;
+}
+.hero {
+  height: 70vh;
+  background: url('hero.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero-text h2 {
+  font-size: 40px;
+  color: gold;
+}
+.about, .services, .contact {
+  padding: 50px;
+  text-align: center;
+}
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.service-card {
+  background: #111;
+  padding: 20px;
+  border: 1px solid gold;
+  border-radius: 8px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  background: #222;
+  border: 1px solid gold;
+  color: white;
+}
+button {
+  padding: 12px;
+  background: gold;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  margin-top: 40px;
+}
+</style>
