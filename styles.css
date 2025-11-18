@@ -1,0 +1,18 @@
+
+body { margin:0; font-family:'Trebuchet MS', sans-serif; background:#000; color:#d4af37; }
+nav { display:flex; justify-content:space-between; align-items:center; padding:20px; background:#111; }
+nav ul { list-style:none; display:flex; gap:20px; }
+nav a { color:#d4af37; text-decoration:none; font-weight:bold; letter-spacing:1px; }
+.logo-img { height:60px; }
+.hero { height:65vh; background:#111; display:flex; justify-content:center; align-items:center; text-align:center; padding:20px; }
+.hero-text h2 { font-size:48px; color:#d4af37; }
+.hero-text p { max-width:600px; margin:auto; color:white; }
+.hero-logo { margin-top:20px; width:200px; }
+.about, .services, .contact { padding:50px; text-align:center; }
+.service-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:25px; }
+.service-card { background:#111; border:1px solid #d4af37; padding:20px; border-radius:10px; }
+.service-card span { display:block; margin-top:10px; font-size:20px; color:white; }
+footer { background:#111; padding:20px; text-align:center; color:#d4af37; margin-top:40px; }
+.contact-form { display:flex; flex-direction:column; gap:10px; max-width:400px; margin:auto; }
+.contact-form input, .contact-form textarea { background:#222; border:1px solid #d4af37; padding:10px; color:white; }
+button { background:#d4af37; padding:12px; border:none; font-weight:bold; cursor:pointer; }
