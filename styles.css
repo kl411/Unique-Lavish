@@ -16,3 +16,53 @@ footer { background:#111; padding:20px; text-align:center; color:#d4af37; margin
 .contact-form { display:flex; flex-direction:column; gap:10px; max-width:400px; margin:auto; }
 .contact-form input, .contact-form textarea { background:#222; border:1px solid #d4af37; padding:10px; color:white; }
 button { background:#d4af37; padding:12px; border:none; font-weight:bold; cursor:pointer; }
+/* Luxury hotel-style service menu */
+
+.luxury-list {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.luxury-list h2 {
+    color: #d4af37;
+    font-size: 36px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.service-item {
+    padding: 20px 0;
+}
+
+.service-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-title span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #d4af37;
+}
+
+.price {
+    color: white;
+    font-size: 22px;
+}
+
+.service-divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, rgba(212,175,55,0.1), rgba(212,175,55,0.6), rgba(212,175,55,0.1));
+    margin: 10px 0 20px;
+}
+
+.service-item p {
+    margin-top: 8px;
+    color: #e0e0e0;
+    line-height: 1.6;
+    font-size: 16px;
+}
