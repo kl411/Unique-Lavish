@@ -5,6 +5,144 @@
 <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 <title>Unique & Lavish | Men's Spa</title>
 <link rel='stylesheet' href='styles.css'>
+<style>
+  /* HERO SECTION */
+  .hero {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('spa-hero.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #DFBD69;
+    padding: 20px;
+  }
+  .hero-text h2 {
+    font-size: 52px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  .hero-text p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #e0e0e0;
+  }
+  .hero-logo {
+    margin-top: 30px;
+    width: 180px;
+  }
+
+  /* ABOUT SECTION */
+  .about {
+    padding: 60px 20px;
+    background: #111;
+    text-align: center;
+  }
+  .about h2 {
+    font-size: 42px;
+    color: #DFBD69;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .about p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+    color: #e0e0e0;
+    line-height: 1.8;
+  }
+
+  /* FEATURED SERVICES SECTION */
+  .featured-services {
+    background: #000;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .featured-services h2 {
+    color: #DFBD69;
+    font-size: 40px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+  }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .service-card {
+    background: #111;
+    border: 1px solid #DFBD69;
+    border-radius: 12px;
+    padding: 30px 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(223,189,105,0.5);
+  }
+  .service-card h3 {
+    color: #DFBD69;
+    font-size: 24px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  .service-card p {
+    color: #d9d9d9;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* WHY CHOOSE US SECTION */
+  .why-choose {
+    background: #111;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .why-choose h2 {
+    color: #DFBD69;
+    font-size: 40px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+  }
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .feature {
+    background: #000;
+    border: 1px solid #DFBD69;
+    border-radius: 12px;
+    padding: 30px 20px;
+  }
+  .feature h3 {
+    color: #DFBD69;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  .feature p {
+    color: #d9d9d9;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* FOOTER */
+  footer {
+    background: #111;
+    padding: 30px 20px;
+    text-align: center;
+    color: #DFBD69;
+    margin-top: 40px;
+  }
+
+</style>
 </head>
 <body>
 <header>
@@ -29,6 +167,50 @@
 <section class='about'>
   <h2>Where Luxury Meets Confidence</h2>
   <p>Unique & Lavish is a premium men's spa designed for those who value relaxation, style, and personal care. Step into a discreet environment built to help you unwind and elevate your grooming experience.</p>
+</section>
+
+<section class='featured-services'>
+  <h2>Our Signature Services</h2>
+  <div class='services-grid'>
+    <div class='service-card'>
+      <h3>Luxury Haircut</h3>
+      <p>Expert styling to refresh your look and leave you feeling confident and polished.</p>
+    </div>
+    <div class='service-card'>
+      <h3>Hot Towel Shave</h3>
+      <p>A classic, relaxing shave experience that combines precision with comfort.</p>
+    </div>
+    <div class='service-card'>
+      <h3>Facial & Skincare</h3>
+      <p>Rejuvenating treatments designed to restore your skin and enhance your natural glow.</p>
+    </div>
+    <div class='service-card'>
+      <h3>Massage Therapy</h3>
+      <p>Relieve stress and tension with a range of tailored massage techniques.</p>
+    </div>
+  </div>
+</section>
+
+<section class='why-choose'>
+  <h2>Why Choose Unique & Lavish?</h2>
+  <div class='features-grid'>
+    <div class='feature'>
+      <h3>Exclusive & Private</h3>
+      <p>Designed with discretion in mind, our space is serene and private.</p>
+    </div>
+    <div class='feature'>
+      <h3>Premium Products</h3>
+      <p>We use only high-quality grooming products for the best results.</p>
+    </div>
+    <div class='feature'>
+      <h3>Experienced Professionals</h3>
+      <p>Our staff are experts in men's grooming and wellness.</p>
+    </div>
+    <div class='feature'>
+      <h3>Relaxed Atmosphere</h3>
+      <p>A masculine, elegant environment where you can truly unwind.</p>
+    </div>
+  </div>
 </section>
 
 <footer>
