@@ -3,7 +3,7 @@ body { margin:0; font-family:'Trebuchet MS', sans-serif; background:#000; color:
 nav { display:flex; justify-content:space-between; align-items:center; padding:20px; background:#111; }
 nav ul { list-style:none; display:flex; gap:20px; }
 nav a { color:#d4af37; text-decoration:none; font-weight:bold; letter-spacing:1px; }
-.logo-img { height:120px; }
+.logo-img { height:180px; }
 .hero { height:65vh; background:#111; display:flex; justify-content:center; align-items:center; text-align:center; padding:20px; }
 .hero-text h2 { font-size:48px; color:#d4af37; }
 .hero-text p { max-width:600px; margin:auto; color:white; }
