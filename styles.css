@@ -152,11 +152,7 @@ body {
 .hero {
   position: relative;
   padding-block: 5.5rem 5rem;
-  background-image:
-    linear-gradient(to bottom, rgba(5, 5, 7, 0.35), rgba(5, 5, 7, 0.96)),
-    url("images/banner-home.png");
-  background-size: cover;
-  background-position: center;
+  background: radial-gradient(circle at top, #191726, #050507);
   color: var(--text-main);
 }
 
