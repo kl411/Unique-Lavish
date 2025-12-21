@@ -638,3 +638,41 @@ body {
     white-space: normal;
   }
 }
+/* === Services Menu Enhancements === */
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.menu-section h2 {
+  color: var(--gold, #d4af37);
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-section li {
+  padding: 0.45rem 0;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.menu-subtitle {
+  font-size: 0.9rem;
+  color: #bbb;
+  margin-bottom: 0.75rem;
+}
+
+.price-note {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
