@@ -675,4 +675,75 @@ body {
   font-size: 0.9rem;
   color: #aaa;
 }
+/* =========================================
+   SERVICES PAGE – LUXURY MENU STYLING
+   ========================================= */
+
+/* Services section spacing */
+.services {
+  padding: 4rem 0;
+}
+
+/* Framed menu card */
+.menu-grid {
+  background: rgba(0, 0, 0, 0.85);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 16px;
+  padding: 3rem 3.5rem;
+  margin-top: 3rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+
+  display: grid;
+  grid-template-columns: 1fr; /* mobile default */
+  gap: 3rem;
+}
+
+/* Desktop: 2-column layout */
+@media (min-width: 992px) {
+  .menu-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Menu sections */
+.menu-section h2 {
+  color: #d4af37;
+  font-size: 1.35rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.35);
+  padding-bottom: 0.5rem;
+}
+
+/* Menu lists */
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-section li {
+  padding: 0.5rem 0;
+  font-size: 0.95rem;
+  color: #f1f1f1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Spa flavor subtitle */
+.menu-subtitle {
+  font-size: 0.9rem;
+  color: #bfa550;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+/* Price note (this was invisible before) */
+.price-note {
+  margin-top: 2.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #c9b26a;
+  letter-spacing: 0.05em;
+}
 
